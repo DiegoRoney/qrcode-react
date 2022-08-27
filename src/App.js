@@ -20,14 +20,18 @@ function App() {
 
   return (
     <div className="App">
+      
       <header className="App-header">
-        <nav className="navbar">QR CODE - construindo</nav>
-      </header>
+            <nav className="navbar">QR CODE - construindo</nav>
+        </header>
 
       <div className="main">
+      
+          
         <div className="header-texto">
-          <h1>Gerador de QRcode!</h1>
-          <h2>descrição</h2>
+
+          <h1>QRcode!</h1>
+          <h2>Gerador de Qr Code</h2>
           <br></br>
           <label className="entrada" for="content">
             <p>
