@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
-// import "./qrcode.js"
+
 
 function App() {
   return (
@@ -57,12 +57,12 @@ function App() {
           </div>
         </div>
 
-        <div className="text-center">
+          {/* <div className="text-center">
             
                 <img src=
                 "img/qr-code-scan-hand.png"
                 className="qr-code img-thumbnail img-responsive" />
-            </div>
+            </div> */}
       </div>
 
     </div>
