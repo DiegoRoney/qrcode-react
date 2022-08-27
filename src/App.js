@@ -1,70 +1,101 @@
-// import logo from './logo.svg';
 import "./App.css";
-
+import { useEffect, useState } from "react";
 
 function App() {
+  const [temp, setTemp] = useState("");
+  const [word, setWord] = useState("");
+  const [size, setSize] = useState(350);
+  const [bgColor, setBgColor] = useState("ffffff");
+  const [qrCode, setQrCode] = useState("");
+
+  useEffect(() => {
+    setQrCode(
+      `http://api.qrserver.com/v1/create-qr-code/?data=${word}!&size=${size}x${size}&bgcolor=${bgColor}`
+    );
+  }, [word, size, bgColor]);
+
+  function handleClick() {
+    setWord(temp);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-        <nav className="navbar">QR CODE -> construindo</nav>
+        <nav className="navbar">QR CODE - construindo</nav>
       </header>
 
       <div className="main">
         <div className="header-texto">
           <h1>Gerador de QRcode!</h1>
-          <p>descrição</p>
+          <h2>descrição</h2>
+          <br></br>
+          <label className="entrada" for="content">
+            <p>
+              1. Cole o link e clique em <strong>Criar</strong>!
+            </p>
+            <p>2. Clique em <strong>BAIXAR</strong> </p>
+            <p>
+              3. Selecione: <strong>Salvar imagem como</strong>
+            </p>
+            <br></br>
+          </label>
+
+          <div className="imput-box">
+            <input className="texto"
+              type="text"
+              onChange={(e) => {
+                setTemp(e.target.value);
+              }}
+              placeholder="Digite ou cole a url"
+            />
+            <div className="btns">
+              
+              <button className="button primario" onClick={handleClick}>
+                Criar
+              </button>
+
+              <a href={qrCode} download="QRCode">               
+                <button className="button" type="button">
+                  BAIXAR
+                </button>
+              </a>
+            </div>
+            
+          </div>
         </div>
 
         <div className="form-horizontal">
           <div className="form-group">
-            <label className="entrada" for="content">
-              <p>
-                1. Cole o link e clique em <strong>Criar</strong>!
-              </p>
-              <p>2. Clique com botão esquerdo do mouse sobre o QRcode</p>
-              <p>
-                3. Selecione: <strong>Salvar imagem como</strong>
-              </p>
-            </label>
-            <div className="">
-              <input
-                type="text"
-                size="40"
-                maxlength="60"
-                class="form-control"
-                id="content"
-                placeholder="Cole o link aqui"
-              />
-            </div>
-          </div>
+            <div className="extra">
+              <div className="output-box">
+                <img src={qrCode} alt="" />
 
-          <div className="form-group1">
-            <div className="">
-              <button type="btn" className="btn btn-default" id="generate">
-                Criar
-              </button>
+                <h5>Cor de fundo:</h5>
+                <input
+                  type="color"
+                  onChange={(e) => {
+                    setBgColor(e.target.value.substring(1));
+                  }}
+                />
+                <h5>Tamanho:</h5>
+                <input
+                  type="range"
+                  min="330"
+                  max="400"
+                  value={size}
+                  onChange={(e) => {
+                    setSize(e.target.value);
+                  }}
+                />
+
+                <a href={qrCode} download="QRCode">
+                  <br></br>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-
-          {/* <div className="text-center">
-            
-                <img src=
-                "img/qr-code-scan-hand.png"
-                className="qr-code img-thumbnail img-responsive" />
-            </div> */}
       </div>
-
     </div>
   );
 }
