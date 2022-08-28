@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Viga&display=swap');
+
+/* font-family: 'Acme', sans-serif;
+font-family: 'Viga', sans-serif; */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Acme', sans-serif;
 }
 .App {
   text-align: center;
+  background: url(../public/img/bg-roxo.jpg) no-repeat center; 
+  background-size: cover; 
+
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -16,7 +25,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   display: flex;
@@ -28,11 +37,13 @@
   color: white;
   width: 100%;  
   /* position: relative; */
-  background-color:#65038c;
+  /* background-color:#65038c; */
+  
  
 }
 .header-texto h1{
   font-size: 85px;
+  /* font-family: 'Viga', sans-serif; */
 }
 /* .header-texto{
   margin: 50px;
@@ -54,13 +65,17 @@
 .navbar{
   display: flex;
   align-items: center;
-  position: absolute;  
+  position: fixed;  
   color: #ffffff;
   width: 90%;
   height: 60px; 
-  padding: 15px;
-  font-size: calc(5px + 2vmin);
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
   
+}
+.navbar img{
+  width: 25px;
+  margin: 10px;
 }
 .header-texto{
   display: flex;
@@ -76,8 +91,8 @@
 .main{
   color: rgb(255, 174, 0);
   width: 100%;
-  min-height: 100vh;
-  background-color:#65038c;
+  height: 100vh;
+  /* background-color:#65038c; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -118,4 +133,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.footer a{
+  color: #ffffff;
+  text-decoration: none;  
+  position: relative;
 }

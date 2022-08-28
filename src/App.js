@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import logo from "./images/icon.png"
 
 function App() {
   const [temp, setTemp] = useState("");
@@ -20,14 +21,18 @@ function App() {
 
   return (
     <div className="App">
-      
       <header className="App-header">
-            <nav className="navbar">QR CODE - construindo</nav>
-        </header>
+      
+      {/* <a href="index.html" classclassName="App-logo "> <img src="" > </img> </a> */}
+            <nav className="navbar">
+            <img src={logo } alt="logo"/> QRcode!
+            </nav>
+      </header>
+      
 
       <div className="main">
       
-          
+      
         <div className="header-texto">
 
           <h1>QRcode!</h1>
@@ -37,7 +42,7 @@ function App() {
             <p>
               1. Cole o link e clique em <strong>Criar</strong>!
             </p>
-            <p>2. Clique em <strong>BAIXAR</strong> </p>
+            <p>2. Clique em <strong>Baixar</strong> </p>
             <p>
               3. Selecione: <strong>Salvar imagem como</strong>
             </p>
@@ -60,7 +65,7 @@ function App() {
 
               <a href={qrCode} download="QRCode">               
                 <button className="button" type="button">
-                  BAIXAR
+                  Baixar
                 </button>
               </a>
             </div>
@@ -99,6 +104,9 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div  className="footer">
+        <a href="https://diegoroney.github.io/portfolio/">© 2022 Copyright: DIEGOR</a>
       </div>
     </div>
   );
