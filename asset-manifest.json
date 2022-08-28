@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/qrcode-react/static/css/main.24cacc2b.css",
-    "main.js": "/qrcode-react/static/js/main.8a16fb25.js",
+    "main.css": "/qrcode-react/static/css/main.265dbdeb.css",
+    "main.js": "/qrcode-react/static/js/main.52066e0a.js",
     "static/js/787.dc7a7b3b.chunk.js": "/qrcode-react/static/js/787.dc7a7b3b.chunk.js",
+    "static/media/bg-roxo.jpg": "/qrcode-react/static/media/bg-roxo.8821bcba02632b57fc67.jpg",
     "index.html": "/qrcode-react/index.html",
-    "main.24cacc2b.css.map": "/qrcode-react/static/css/main.24cacc2b.css.map",
-    "main.8a16fb25.js.map": "/qrcode-react/static/js/main.8a16fb25.js.map",
+    "main.265dbdeb.css.map": "/qrcode-react/static/css/main.265dbdeb.css.map",
+    "main.52066e0a.js.map": "/qrcode-react/static/js/main.52066e0a.js.map",
     "787.dc7a7b3b.chunk.js.map": "/qrcode-react/static/js/787.dc7a7b3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24cacc2b.css",
-    "static/js/main.8a16fb25.js"
+    "static/css/main.265dbdeb.css",
+    "static/js/main.52066e0a.js"
   ]
 }
