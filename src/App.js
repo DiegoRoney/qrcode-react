@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       
       <header className="App-header">
-            <nav className="navbar">QR CODE - construindo</nav>
+            <nav className="navbar">QRcode!</nav>
         </header>
 
       <div className="main">
