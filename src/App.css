@@ -32,7 +32,8 @@ font-family: 'Viga', sans-serif; */
 
 .App-header {
   display: flex;
-  padding: 25px;
+  padding-top: 25px;
+  margin-top: 0;
   /* flex-direction: column; */
   align-items: center;
   /* justify-content: center; */
@@ -55,32 +56,33 @@ font-family: 'Viga', sans-serif; */
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .navbar{
   display: flex;
   align-items: center;
-  position: fixed;  
+  justify-content: space-between;
+  position: absolute;  
   color: #ffffff;
-  width: 90%;
-  height: 60px; 
-  padding: 10px;
+  width: 100%;
+  height: 40px; 
+  padding: 20px;
   font-size: calc(10px + 2vmin);
+  /* background-color:#65038c; */
   
 }
 .navbar img{
   width: 25px;
   margin: 10px;
 }
-.header-texto{
+.logos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logoslinks img{
+  height: 18px;
+  width: auto;
+}
+.header-texto{ 
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -92,8 +94,9 @@ font-family: 'Viga', sans-serif; */
 } */
 
 .main{
+  margin-top: 60px;
   color: rgb(255, 174, 0);
-  width: 1200px;
+  /* width: 1200px; */
   height: 100vh;
   /* background-color:#65038c; */
   display: flex;
@@ -138,6 +141,7 @@ font-family: 'Viga', sans-serif; */
   justify-content: center;
 }
 .footer {
+  margin-top: 40px;
   width: 100%;
   height: 50px;
   display: flex;

@@ -1,6 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-import logo from "./images/icon.png"
+import logo from "./images/icon.png";
+import logoDiego from "./images/icon-diego.png"
 
 function App() {
   const [temp, setTemp] = useState("");
@@ -22,19 +23,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      
-      {/* <a href="index.html" classclassName="App-logo "> <img src="" > </img> </a> */}
-            <nav className="navbar">
-            <img src={logo } alt="logo"/> QRcode!
-            </nav>
+        {/* <a href="index.html" classclassName="App-logo "> <img src="" > </img> </a> */}
+        <nav className="navbar">
+          <div className="logos">
+            <img src={logo} alt="logo"/> 
+            QRcode!
+          </div>
+          <div className="logoslinks">
+            <a href="https://diegoroney.github.io/portfolio/" alt="portfólio"> 
+            <img src={logoDiego} alt="logo-diego"/>
+            </a>        
+            
+          </div>
+        </nav>
       </header>
-      
 
       <div className="main">
-      
-      
         <div className="header-texto">
-
           <h1>QRcode!</h1>
           <h2>Gerador de Qr Code</h2>
           <br></br>
@@ -42,7 +47,9 @@ function App() {
             <p>
               1. Cole o link e clique em <strong>Criar</strong>!
             </p>
-            <p>2. Clique em <strong>Baixar</strong> </p>
+            <p>
+              2. Clique em <strong>Baixar</strong>{" "}
+            </p>
             <p>
               3. Selecione: <strong>Salvar imagem como</strong>
             </p>
@@ -50,7 +57,8 @@ function App() {
           </label>
 
           <div className="imput-box">
-            <input className="texto"
+            <input
+              className="texto"
               type="text"
               onChange={(e) => {
                 setTemp(e.target.value);
@@ -58,18 +66,16 @@ function App() {
               placeholder="Digite ou cole a url"
             />
             <div className="btns">
-              
               <button className="button primario" onClick={handleClick}>
                 Criar
               </button>
 
-              <a href={qrCode} download="QRCode">               
+              <a href={qrCode} download="QRCode">
                 <button className="button" type="button">
                   Baixar
                 </button>
               </a>
             </div>
-            
           </div>
         </div>
 
@@ -105,8 +111,10 @@ function App() {
           </div>
         </div>
       </div>
-      <div  className="footer">
-        <a href="https://diegoroney.github.io/portfolio/">© 2022 Copyright: DIEGOR</a>
+      <div className="footer">
+        <a href="https://diegoroney.github.io/portfolio/">
+          © 2022 Copyright: DIEGOR
+        </a>
       </div>
     </div>
   );
