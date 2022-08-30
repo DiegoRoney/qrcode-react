@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/qrcode-react/static/css/main.79754c64.css",
-    "main.js": "/qrcode-react/static/js/main.08cf7b56.js",
+    "main.css": "/qrcode-react/static/css/main.75d2b957.css",
+    "main.js": "/qrcode-react/static/js/main.765a6c8a.js",
     "static/js/787.dc7a7b3b.chunk.js": "/qrcode-react/static/js/787.dc7a7b3b.chunk.js",
     "static/media/bg-roxo.jpg": "/qrcode-react/static/media/bg-roxo.8821bcba02632b57fc67.jpg",
     "static/media/icon-diego.png": "/qrcode-react/static/media/icon-diego.ab288193ef7b067739a4.png",
     "index.html": "/qrcode-react/index.html",
-    "main.79754c64.css.map": "/qrcode-react/static/css/main.79754c64.css.map",
-    "main.08cf7b56.js.map": "/qrcode-react/static/js/main.08cf7b56.js.map",
+    "main.75d2b957.css.map": "/qrcode-react/static/css/main.75d2b957.css.map",
+    "main.765a6c8a.js.map": "/qrcode-react/static/js/main.765a6c8a.js.map",
     "787.dc7a7b3b.chunk.js.map": "/qrcode-react/static/js/787.dc7a7b3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79754c64.css",
-    "static/js/main.08cf7b56.js"
+    "static/css/main.75d2b957.css",
+    "static/js/main.765a6c8a.js"
   ]
 }
