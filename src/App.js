@@ -1,14 +1,15 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import logo from "./images/icon.png";
-import logoDiego from "./images/icon-diego.png"
+import logoDiego from "./images/icon-diego.png";
 
 function App() {
   const [temp, setTemp] = useState("");
-  const [word, setWord] = useState("");
+  const [word, setWord] = useState("https://diegoroney.github.io/qrcode-react/");
   const [size, setSize] = useState(350);
   const [bgColor, setBgColor] = useState("ffffff");
-  const [qrCode, setQrCode] = useState("");
+  const [qrCode, setQrCode] = useState("diego");
+  
 
   useEffect(() => {
     setQrCode(
@@ -26,14 +27,13 @@ function App() {
         {/* <a href="index.html" classclassName="App-logo "> <img src="" > </img> </a> */}
         <nav className="navbar">
           <div className="logos">
-            <img src={logo} alt="logo"/> 
+            <img src={logo} alt="logo" />
             QRcode!
           </div>
           <div className="logoslinks">
-            <a href="https://diegoroney.github.io/portfolio/" alt="portfólio"> 
-            <img src={logoDiego} alt="logo-diego"/>
-            </a>        
-            
+            <a href="https://diegoroney.github.io/portfolio/" alt="portfólio">
+              <img src={logoDiego} alt="logo-diego" />
+            </a>
           </div>
         </nav>
       </header>
@@ -92,7 +92,7 @@ function App() {
                     setBgColor(e.target.value.substring(1));
                   }}
                 />
-                <h5>Tamanho:</h5>
+                <h4>Tamanho:</h4>
                 <input
                   type="range"
                   min="330"
@@ -111,6 +111,7 @@ function App() {
           </div>
         </div>
       </div>
+
       <div className="footer">
         <a href="https://diegoroney.github.io/portfolio/">
           © 2022 Copyright: DIEGOR

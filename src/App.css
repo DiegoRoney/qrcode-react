@@ -17,51 +17,33 @@ font-family: 'Viga', sans-serif; */
   flex-direction: column;
   justify-items: center;
   align-items: center;
+ 
 }
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
 .App-header {
   display: flex;
   padding-top: 25px;
-  margin-top: 0;
-  /* flex-direction: column; */
-  align-items: center;
-  /* justify-content: center; */
-  /* font-size: calc(5px + 2vmin); */
-  color: white;
-  width: 100%;  
-  /* position: relative; */
-  /* background-color:#65038c; */
-  
- 
+  margin-top: 0;  
+  align-items: center;  
+  color: #ffffff;
+  width: 100%; 
 }
+
 .header-texto h1{
-  font-size: 85px;
+  font-size: 95px;
   /* font-family: 'Viga', sans-serif; */
 }
-/* .header-texto{
-  margin: 50px;
-} */
 
-.App-link {
-  color: #61dafb;
+.entrada{
+  padding: 5px;
 }
+
 .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: absolute;  
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   width: 100%;
   height: 40px; 
   padding: 20px;
@@ -86,6 +68,8 @@ font-family: 'Viga', sans-serif; */
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: rgb(0, 0, 0);
+  height: 400px;
   /* padding: 10px; */
 
 }
@@ -95,9 +79,9 @@ font-family: 'Viga', sans-serif; */
 
 .main{
   margin-top: 60px;
-  color: rgb(255, 174, 0);
-  /* width: 1200px; */
-  height: 100vh;
+  color: #000000;
+  padding: 25px; 
+  min-height: 100vh;
   /* background-color:#65038c; */
   display: flex;
   flex-wrap: wrap;
@@ -106,6 +90,7 @@ font-family: 'Viga', sans-serif; */
   
 
 }
+
 .btns{
   display: flex;
   direction: row;  
@@ -114,22 +99,29 @@ font-family: 'Viga', sans-serif; */
   flex-wrap: nowrap;
   padding: 15px;
   width: 400px;
+
 }
 .texto{
   width: 340px;
   height: 30px;
   border-radius: 5px;
   border: none;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #65038c;
 }
+
 .button{
   width: 160px;
   height: 40px;  
-  background-color: rgb(255, 174, 0);
+  background-color: #ffffff;
+  color: #000000;
   border: none;
   border-radius: 5px;
 }
 .primario{
-  background-color: aliceblue;
+  background-color: darkorange;
+  color: #000000;
 }
 .primario:hover{
   background-color: rgb(199, 199, 199);
@@ -151,5 +143,5 @@ font-family: 'Viga', sans-serif; */
 .footer a{
   color: #ffffff;
   text-decoration: none; 
-  
+    
 }
