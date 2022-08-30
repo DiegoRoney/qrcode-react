@@ -11,7 +11,7 @@ font-family: 'Viga', sans-serif; */
 }
 .App {
   text-align: center;
-  background: url(../public/img/bg-roxo.jpg) no-repeat center; 
+  background: url(../public/img/banner2-g.jpg) no-repeat center; 
   background-size: cover; 
   display: flex;
   flex-direction: column;
@@ -46,15 +46,15 @@ font-family: 'Viga', sans-serif; */
  
 }
 .header-texto h1{
-  font-size: 85px;
+  font-size: 95px;
   /* font-family: 'Viga', sans-serif; */
 }
 /* .header-texto{
   margin: 50px;
 } */
+.entrada{
+  padding: 5px;
 
-.App-link {
-  color: #61dafb;
 }
 .navbar{
   display: flex;
