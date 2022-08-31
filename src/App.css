@@ -11,12 +11,13 @@ font-family: 'Viga', sans-serif; */
 }
 .App {
   text-align: center;
-  background: url(../public/img/bg-roxo.jpg) no-repeat center; 
+  background: url(../public/img/bg-branco.jpg) no-repeat center; 
   background-size: cover; 
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  height: 100vh;
  
 }
 
@@ -32,7 +33,14 @@ font-family: 'Viga', sans-serif; */
 .header-texto h1{
   font-size: 95px;
   /* font-family: 'Viga', sans-serif; */
-  color: darkorange;
+  color: #65038c;
+}
+.header-texto{ 
+  
+  background-color:  rgba(255, 140, 0, 0);
+}
+.form-horizontal{
+  background-color: #458c0300;
 }
 
 .entrada{
@@ -44,7 +52,7 @@ font-family: 'Viga', sans-serif; */
   align-items: center;
   justify-content: space-between;
   position: absolute;  
-  color: rgb(255, 255, 255);
+  color: #65038c;
   width: 100%;
   height: 40px; 
   padding: 20px;
@@ -79,15 +87,16 @@ font-family: 'Viga', sans-serif; */
 } */
 
 .main{
-  margin-top: 60px;
+  margin-top: 80px;
   color: #000000;
   padding: 25px; 
-  min-height: 100vh;
+  height: 100%;
+  width: 70%;
   /* background-color:#65038c; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   
 
 }
@@ -121,8 +130,8 @@ font-family: 'Viga', sans-serif; */
   border-radius: 5px;
 }
 .primario{
-  background-color: darkorange;
-  color: #000000;
+  background-color: #65038c;
+  color: #ffffff;
 }
 .primario:hover{
   background-color: rgb(199, 199, 199);
@@ -134,15 +143,18 @@ font-family: 'Viga', sans-serif; */
   justify-content: center;
 }
 .footer {
-  margin-top: 40px;
+  margin-top: 20px;
   width: 100%;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* background-color: darkorange; */
+  
+  bottom: 5%;
 }
 .footer a{
-  color: #ffffff;
+  color: #000000;
   text-decoration: none; 
     
 }
