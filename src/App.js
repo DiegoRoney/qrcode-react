@@ -1,7 +1,5 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-// import logo from "./images/icon.png";
-// import logoDiego from "./images/icon-diego.png";
 import logoBk from "./images/icon - bk.png";
 import logoDiegoBk from "./images/icon-diego - bk.png";
 
@@ -10,7 +8,7 @@ function App() {
   const [word, setWord] = useState("https://diegoroney.github.io/qrcode-react/");
   const [size, setSize] = useState(350);
   const [bgColor, setBgColor] = useState("ffffff");
-  const [qrCode, setQrCode] = useState("diego");
+  const [qrCode, setQrCode] = useState("");
   
 
   useEffect(() => {
