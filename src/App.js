@@ -1,7 +1,9 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-import logo from "./images/icon.png";
-import logoDiego from "./images/icon-diego.png";
+// import logo from "./images/icon.png";
+// import logoDiego from "./images/icon-diego.png";
+import logoBk from "./images/icon - bk.png";
+import logoDiegoBk from "./images/icon-diego - bk.png";
 
 function App() {
   const [temp, setTemp] = useState("");
@@ -27,18 +29,19 @@ function App() {
         {/* <a href="index.html" classclassName="App-logo "> <img src="" > </img> </a> */}
         <nav className="navbar">
           <div className="logos">
-            <img src={logo} alt="logo" />
+            <img src={logoBk} alt="logo" />
             QRcode!
           </div>
           <div className="logoslinks">
             <a href="https://diegoroney.github.io/portfolio/" alt="portfólio">
-              <img src={logoDiego} alt="logo-diego" />
+              <img src={logoDiegoBk} alt="logo-diego" />
             </a>
           </div>
         </nav>
       </header>
 
       <div className="main">
+
         <div className="header-texto">
           <h1>QRcode!</h1>
           <h2>Gerador de Qr Code</h2>
@@ -92,8 +95,10 @@ function App() {
                     setBgColor(e.target.value.substring(1));
                   }}
                 />
-                <h4>Tamanho:</h4>
+                
+                {/* <h4>Tamanho:</h4>
                 <input
+                  className="rage"
                   type="range"
                   min="330"
                   max="400"
@@ -101,15 +106,14 @@ function App() {
                   onChange={(e) => {
                     setSize(e.target.value);
                   }}
-                />
+                /> */}
 
-                <a href={qrCode} download="QRCode">
-                  <br></br>
-                </a>
+               
               </div>
             </div>
           </div>
         </div>
+        
       </div>
 
       <div className="footer">
@@ -117,6 +121,7 @@ function App() {
           © 2022 Copyright: DIEGOR
         </a>
       </div>
+      
     </div>
   );
 }
