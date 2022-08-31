@@ -32,6 +32,7 @@ font-family: 'Viga', sans-serif; */
 .header-texto h1{
   font-size: 95px;
   /* font-family: 'Viga', sans-serif; */
+  color: darkorange;
 }
 
 .entrada{
