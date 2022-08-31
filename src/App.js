@@ -23,8 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <a href="index.html" classclassName="App-logo "> <img src="" > </img> </a> */}
+      <header className="App-header">    
         <nav className="navbar">
           <div className="logos">
             <img src={logoBk} alt="logo" />
@@ -94,7 +93,7 @@ function App() {
                   }}
                 />
                 
-                {/* <h4>Tamanho:</h4>
+                <h4>Tamanho:</h4>
                 <input
                   className="rage"
                   type="range"
@@ -104,7 +103,7 @@ function App() {
                   onChange={(e) => {
                     setSize(e.target.value);
                   }}
-                /> */}
+                /> 
 
                
               </div>
