@@ -6,7 +6,7 @@ import logoDiegoBk from "./images/icon-diego - bk.png";
 function App() {
   const [temp, setTemp] = useState("");
   const [word, setWord] = useState("https://diegoroney.github.io/qrcode-react/");
-  const [size, setSize] = useState(350);
+  const [size, setSize] = useState(380);
   const [bgColor, setBgColor] = useState("ffffff");
   const [qrCode, setQrCode] = useState("");
   
