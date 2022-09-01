@@ -6,7 +6,7 @@ import logoDiegoBk from "./images/icon-diego - bk.png";
 function App() {
   const [temp, setTemp] = useState("");
   const [word, setWord] = useState("https://diegoroney.github.io/qrcode-react/");
-  const [size, setSize] = useState(380);
+  const [size, setSize] = useState(330);
   const [bgColor, setBgColor] = useState("ffffff");
   const [qrCode, setQrCode] = useState("");
   
@@ -85,12 +85,12 @@ function App() {
               <div className="output-box">
                 <img src={qrCode} alt="" />
 
-                <h5>Cor de fundo:</h5>
+                <h4>Cor de fundo:</h4>
                 <input
                   type="color"
                   onChange={(e) => {
                     setBgColor(e.target.value.substring(1));
-                  }}
+                  }}                  
                 />
                 
                 <h4>Tamanho:</h4>
@@ -115,7 +115,7 @@ function App() {
 
       <div className="footer">
         <a href="https://diegoroney.github.io/portfolio/">
-          © 2022 Copyright: DIEGOR
+          <br></br>© 2022 Copyright: DIEGOR
         </a>
       </div>
       
