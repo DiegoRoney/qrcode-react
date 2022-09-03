@@ -98,8 +98,7 @@ font-family: 'Viga', sans-serif; */
   color: #000000;
   padding: 25px; 
   height: 100%;
-  width: 70%;
-  /* background-color:#65038c; */
+  width: 70%;  
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -156,7 +155,6 @@ font-family: 'Viga', sans-serif; */
   align-items: center;
   justify-content: center;
   
-
 }
 .footer a{
   color: #000000;
