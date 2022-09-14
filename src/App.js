@@ -5,7 +5,7 @@ import logoDiegoBk from "./images/icon-diego - bk.png";
 
 function App() {
   const [temp, setTemp] = useState("");
-  const [word, setWord] = useState("https://diegoroney.github.io/qrcode-react/");
+  const [word, setWord] = useState("https://diegoroney.github.io/portfolio/index.html");
   const [size, setSize] = useState(330);
   const [bgColor, setBgColor] = useState("ffffff");
   const [qrCode, setQrCode] = useState("");
@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     setQrCode(
-      `http://api.qrserver.com/v1/create-qr-code/?data=${word}!&size=${size}x${size}&bgcolor=${bgColor}`
+      `http://api.qrserver.com/v1/create-qr-code/?data=${word}&size=${size}x${size}&bgcolor=${bgColor}`
       // https://chart.googleapis.com/chart?cht=qr&chl=
       // http://api.qrserver.com/v1/create-qr-code/?data=
       );
