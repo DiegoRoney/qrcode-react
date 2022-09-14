@@ -14,7 +14,9 @@ function App() {
   useEffect(() => {
     setQrCode(
       `http://api.qrserver.com/v1/create-qr-code/?data=${word}!&size=${size}x${size}&bgcolor=${bgColor}`
-    );
+      // https://chart.googleapis.com/chart?cht=qr&chl=
+      // http://api.qrserver.com/v1/create-qr-code/?data=
+      );
   }, [word, size, bgColor]);
 
   function handleClick() {
