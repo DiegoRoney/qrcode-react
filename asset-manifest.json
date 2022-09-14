@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/qrcode-react/static/css/main.bf5738df.css",
-    "main.js": "/qrcode-react/static/js/main.663de74f.js",
+    "main.css": "/qrcode-react/static/css/main.078eafcf.css",
+    "main.js": "/qrcode-react/static/js/main.d9dc1aa4.js",
     "static/js/787.dc7a7b3b.chunk.js": "/qrcode-react/static/js/787.dc7a7b3b.chunk.js",
     "static/media/top-view.jpg.png": "/qrcode-react/static/media/top-view.jpg.504e34cfba5524f62a7e.png",
     "static/media/icon-diego - bk.png": "/qrcode-react/static/media/icon-diego - bk.18bc32007eb3c7e417e7.png",
     "index.html": "/qrcode-react/index.html",
-    "main.bf5738df.css.map": "/qrcode-react/static/css/main.bf5738df.css.map",
-    "main.663de74f.js.map": "/qrcode-react/static/js/main.663de74f.js.map",
+    "main.078eafcf.css.map": "/qrcode-react/static/css/main.078eafcf.css.map",
+    "main.d9dc1aa4.js.map": "/qrcode-react/static/js/main.d9dc1aa4.js.map",
     "787.dc7a7b3b.chunk.js.map": "/qrcode-react/static/js/787.dc7a7b3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf5738df.css",
-    "static/js/main.663de74f.js"
+    "static/css/main.078eafcf.css",
+    "static/js/main.d9dc1aa4.js"
   ]
 }
