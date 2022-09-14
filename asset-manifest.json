@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/qrcode-react/static/css/main.078eafcf.css",
+    "main.css": "/qrcode-react/static/css/main.4358dbca.css",
     "main.js": "/qrcode-react/static/js/main.d9dc1aa4.js",
     "static/js/787.dc7a7b3b.chunk.js": "/qrcode-react/static/js/787.dc7a7b3b.chunk.js",
     "static/media/top-view.jpg.png": "/qrcode-react/static/media/top-view.jpg.504e34cfba5524f62a7e.png",
     "static/media/icon-diego - bk.png": "/qrcode-react/static/media/icon-diego - bk.18bc32007eb3c7e417e7.png",
     "index.html": "/qrcode-react/index.html",
-    "main.078eafcf.css.map": "/qrcode-react/static/css/main.078eafcf.css.map",
+    "main.4358dbca.css.map": "/qrcode-react/static/css/main.4358dbca.css.map",
     "main.d9dc1aa4.js.map": "/qrcode-react/static/js/main.d9dc1aa4.js.map",
     "787.dc7a7b3b.chunk.js.map": "/qrcode-react/static/js/787.dc7a7b3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.078eafcf.css",
+    "static/css/main.4358dbca.css",
     "static/js/main.d9dc1aa4.js"
   ]
 }
