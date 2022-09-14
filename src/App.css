@@ -28,11 +28,7 @@ font-family: 'Viga', sans-serif; */
 @media (min-width: 1024px) {
   .navbar{    
     justify-content: space-evenly;
-  }
-  .navbar{
-    background-color: #ffffff;
-  }
-
+  } 
 }
 
 .App {
