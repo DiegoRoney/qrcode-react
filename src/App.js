@@ -117,7 +117,7 @@ function App() {
 
       <div className="footer">
         <a href="https://diegoroney.github.io/portfolio/">
-          <br></br>© 2023 Copyright: DIEGOR
+          <br></br>© 2025 Copyright: DIEGO
         </a>
       </div>
       
